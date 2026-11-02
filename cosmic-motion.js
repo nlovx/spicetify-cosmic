@@ -1,4 +1,4 @@
-// NAME: Cosmic Motion
+// NAME: Black Cosmic Motion
 // AUTHOR: nlovx
 // DESCRIPTION: Small animations, and the stars react to the music.
 

@@ -1,4 +1,4 @@
-// NAME: Fullscreen F11
+// NAME: Black Cosmic Fullscreen F11
 // AUTHOR: nlovx
 // DESCRIPTION: F11 toggles fullscreen (there is a top bar button too). Esc leaves it.
 

@@ -1,47 +1,47 @@
 [
     {
-        "name": "Cosmic Sky",
+        "name": "Black Cosmic Sky",
         "description": "Black Spotify with a slow starfield behind it. Once in a while a small comet flies by.",
         "main": "cosmic-sky.js",
         "preview": "previews/sky.jpg",
         "readme": "README.md",
-        "authors": [{ "name": "nlovx", "url": "https://github.com/nlovx" }],
+        "authors": [{ "name": "@nlovx", "url": "https://github.com/nlovx" }],
         "tags": ["theme", "dark", "stars", "black", "animated"]
     },
     {
-        "name": "Cosmic Motion",
+        "name": "Black Cosmic Motion",
         "description": "Small animations: pages fade in, cards lift on hover, and the stars flash to the beat.",
         "main": "cosmic-motion.js",
         "preview": "previews/sky.jpg",
         "readme": "README.md",
-        "authors": [{ "name": "nlovx", "url": "https://github.com/nlovx" }],
+        "authors": [{ "name": "@nlovx", "url": "https://github.com/nlovx" }],
         "tags": ["animation", "stars", "beat", "visualizer"]
     },
     {
-        "name": "Cosmic Now Playing",
+        "name": "Black Cosmic Now Playing",
         "description": "A lyrics page with a big cover and its own player bar. The words light up as they're sung.",
         "main": "cosmic-nowplaying.js",
         "preview": "previews/now-playing.jpg",
         "readme": "README.md",
-        "authors": [{ "name": "nlovx", "url": "https://github.com/nlovx" }],
+        "authors": [{ "name": "@nlovx", "url": "https://github.com/nlovx" }],
         "tags": ["lyrics", "now playing", "fullscreen", "stars"]
     },
     {
-        "name": "Cosmic Miniplayer",
+        "name": "Black Cosmic Miniplayer",
         "description": "A nicer mini-player window. Small cover, buttons always visible, drag the bar to seek.",
         "main": "cosmic-miniplayer.js",
         "preview": "previews/miniplayer.jpg",
         "readme": "README.md",
-        "authors": [{ "name": "nlovx", "url": "https://github.com/nlovx" }],
+        "authors": [{ "name": "@nlovx", "url": "https://github.com/nlovx" }],
         "tags": ["miniplayer", "dark", "stars", "pip"]
     },
     {
-        "name": "Cosmic Fullscreen F11",
+        "name": "Black Cosmic Fullscreen F11",
         "description": "Press F11 for fullscreen, Esc to leave. Also adds a button to the top bar.",
         "main": "cosmic-fullscreen.js",
         "preview": "previews/fullscreen.jpg",
         "readme": "README.md",
-        "authors": [{ "name": "nlovx", "url": "https://github.com/nlovx" }],
+        "authors": [{ "name": "@nlovx", "url": "https://github.com/nlovx" }],
         "tags": ["fullscreen", "f11", "window", "utility"]
     }
 ]

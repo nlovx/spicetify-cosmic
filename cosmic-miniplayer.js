@@ -1,4 +1,4 @@
-// NAME: Cosmic Miniplayer
+// NAME: Black Cosmic Miniplayer
 // AUTHOR: nlovx
 // DESCRIPTION: A nicer mini-player window: small cover, buttons always visible, drag the bar to seek.
 

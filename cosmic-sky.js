@@ -1,4 +1,4 @@
-// NAME: Cosmic Sky
+// NAME: Black Cosmic Sky
 // AUTHOR: nlovx
 // DESCRIPTION: Black Spotify with a slow starfield behind it, and the occasional small comet.
 (() => {

@@ -1,4 +1,4 @@
-// NAME: Cosmic Now Playing
+// NAME: Black Cosmic Now Playing
 // AUTHOR: nlovx
 // DESCRIPTION: A lyrics page with a big cover and its own player bar. Button in the player bar, Shift+F11 for fullscreen, Esc to close.
 
