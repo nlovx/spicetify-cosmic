@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Cosmic Sky",
+        "description": "Pure black Spotify with a living starfield: drifting, twinkling stars and the occasional tiny comet. Also clears cover-coloured bands on playlist pages.",
+        "main": "cosmic-sky.js",
+        "readme": "README.md",
+        "authors": [{ "name": "nlovx", "url": "https://github.com/nlovx" }],
+        "tags": ["theme", "dark", "stars", "black", "animated"]
+    },
+    {
+        "name": "Cosmic Motion",
+        "description": "Animations for Cosmic: pages and cards ease in, hover lifts, a like pops, and the sky reacts to the music (comet on every new track, stars slow on pause and flash on the beat).",
+        "main": "cosmic-motion.js",
+        "readme": "README.md",
+        "authors": [{ "name": "nlovx", "url": "https://github.com/nlovx" }],
+        "tags": ["animation", "stars", "beat", "visualizer"]
+    },
+    {
+        "name": "Cosmic Now Playing",
+        "description": "Big cover, karaoke-style synced lyrics and its own player bar. Opens in the main area from a player-bar button, or fullscreen. Stars or blurred-cover background.",
+        "main": "cosmic-nowplaying.js",
+        "readme": "README.md",
+        "authors": [{ "name": "nlovx", "url": "https://github.com/nlovx" }],
+        "tags": ["lyrics", "now playing", "fullscreen", "stars"]
+    },
+    {
+        "name": "Cosmic Miniplayer",
+        "description": "A new look for the mini-player window: stars and comets, small cover, always-visible controls, draggable seek bar.",
+        "main": "cosmic-miniplayer.js",
+        "readme": "README.md",
+        "authors": [{ "name": "nlovx", "url": "https://github.com/nlovx" }],
+        "tags": ["miniplayer", "dark", "stars", "pip"]
+    },
+    {
+        "name": "Cosmic Fullscreen F11",
+        "description": "Toggle Spotify fullscreen with F11 or a top bar button. Esc exits.",
+        "main": "cosmic-fullscreen.js",
+        "readme": "README.md",
+        "authors": [{ "name": "nlovx", "url": "https://github.com/nlovx" }],
+        "tags": ["fullscreen", "f11", "window", "utility"]
+    }
+]
