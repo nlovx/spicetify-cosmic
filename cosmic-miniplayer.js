@@ -1,6 +1,6 @@
 // NAME: Cosmic Miniplayer
 // AUTHOR: nlovx
-// DESCRIPTION: Replaces the built-in mini-player's look with Cosmic: stars + comets, small cover, always-visible controls, draggable seek bar.
+// DESCRIPTION: A nicer mini-player window: small cover, buttons always visible, drag the bar to seek.
 
 (() => {
     if (window.__cosmicMiniplayer) return;

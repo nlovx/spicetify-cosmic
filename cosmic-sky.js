@@ -1,6 +1,6 @@
 // NAME: Cosmic Sky
 // AUTHOR: nlovx
-// DESCRIPTION: Pure black Spotify with a living starfield: drifting, twinkling stars, tiny comets, and clean playlist pages.
+// DESCRIPTION: Black Spotify with a slow starfield behind it, and the occasional small comet.
 (() => {
   const styleId = "cosmic-sky-extension";
   if (document.getElementById(styleId)) return;
@@ -103,6 +103,7 @@
 /* Playlist and album pages colour their header with the cover (an inline background on the block under the header
    and an inline --background-base on the sticky bar). Keep them black. */
 #main-view section[data-testid$="-page"] > div[style*="background-color"] { background: none !important; }
+#main-view section[data-testid$="-page"] div[style*="background-color"]:empty { background: none !important; }
 #main-view [style*="--background-base"] { --background-base: transparent !important; }
 /* The sticky title bar and the sticky table header are dark glass: transparent ones let scrolled rows run into them,
    and the default is a milky grey. */

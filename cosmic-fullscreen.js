@@ -1,6 +1,6 @@
 // NAME: Fullscreen F11
 // AUTHOR: nlovx
-// DESCRIPTION: Toggle Spotify fullscreen with F11 (or the top bar button). Esc exits.
+// DESCRIPTION: F11 toggles fullscreen (there is a top bar button too). Esc leaves it.
 
 (function FullscreenF11() {
     if (!Spicetify?.Topbar?.Button || !Spicetify?.SVGIcons) {

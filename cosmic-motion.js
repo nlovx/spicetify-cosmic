@@ -1,6 +1,6 @@
 // NAME: Cosmic Motion
 // AUTHOR: nlovx
-// DESCRIPTION: Animations for Cosmic: pages and cards ease in, hover lifts, a like pops, covers fade in on a new track, and the sky reacts to the music (a comet on every new track, stars slow down on pause and flash on the beat).
+// DESCRIPTION: Small animations, and the stars react to the music.
 
 (() => {
     if (window.__cosmicMotion) return;

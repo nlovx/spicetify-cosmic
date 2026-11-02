@@ -1,6 +1,6 @@
 // NAME: Cosmic Now Playing
 // AUTHOR: nlovx
-// DESCRIPTION: A now-playing page with a big cover and synced lyrics, in Cosmic style, with its own player bar at the bottom. Opens in the main area from a player-bar button; fullscreen with the expand button or Shift+F11. Esc closes.
+// DESCRIPTION: A lyrics page with a big cover and its own player bar. Button in the player bar, Shift+F11 for fullscreen, Esc to close.
 
 (() => {
     if (window.__cosmicNP) return;

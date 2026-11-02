@@ -1,41 +1,57 @@
-# Cosmic for Spicetify
+# Cosmic
 
-A pure black Spotify with a living night sky, a lyrics page, a better mini-player and a bit of motion. Five small extensions that work together or on their own.
+Spotify, but black with stars. I made it for myself because the normal look bored me, then figured someone else might want it too.
 
-| Extension | What it does |
-| --- | --- |
-| **Cosmic Sky** (`cosmic-sky.js`) | Black palette and a starfield behind the whole app: stars drift in three depth layers and twinkle, and now and then one flares and a tiny comet leaves it. Also removes cover-coloured bands on playlist pages, makes the sticky bars dark glass, and hides the "Ctrl L" hint in search. |
-| **Cosmic Motion** (`cosmic-motion.js`) | Pages and cards ease in as you navigate and scroll, cards and rail covers lift on hover, a like pops, covers fade in on a new track. The sky follows the music: a comet for every new track, stars slow down when you pause, and flash on the beat (uses Spotify's audio analysis). Needs Cosmic Sky for the sky effects. |
-| **Cosmic Now Playing** (`cosmic-nowplaying.js`) | A page with a big cover and karaoke-style synced lyrics (words fill in as they are sung), plus its own player bar with track, controls, seek and volume. A button with a sparkle in the player bar opens it in the main area; the expand button or **Shift+F11** goes fullscreen; **B** switches the background between stars and a blurred cover; **Esc** closes. While it is open the side panel stops repeating what the page shows. |
-| **Cosmic Miniplayer** (`cosmic-miniplayer.js`) | Replaces the look of the built-in mini-player window: small cover, always-visible controls, a seek bar you can drag, space and arrow keys. Works at any window size. |
-| **Cosmic Fullscreen F11** (`cosmic-fullscreen.js`) | **F11** toggles window fullscreen, with a top bar button too. **Esc** exits. |
+![Cosmic Sky](previews/sky.jpg)
 
-Nothing changes in the normal window until you use the buttons.
+It's five Spicetify extensions. They work separately, so install only the ones you like.
+
+**Cosmic Sky** is the main one. Black background, stars drifting around, and now and then a little comet flies past. It also gets rid of the coloured stripes Spotify paints on playlist and artist pages, and the "Ctrl L" hint in the search box.
+
+**Cosmic Motion** adds small animations. Pages fade in, cards lift when you hover over them, a like pops. The stars react to the music too: they flash on the beat, slow down when you pause, and a comet flies by on every new track. You need Cosmic Sky for that part.
+
+**Cosmic Now Playing** is a page with a big cover and the lyrics. The words light up as they're sung. It has its own player bar at the bottom. A button with a star on it appears in Spotify's player bar and opens the page. The expand button (or Shift+F11) makes it fullscreen, and Esc closes it. In fullscreen, B switches the background between stars and the blurred cover.
+
+![Cosmic Now Playing](previews/now-playing.jpg)
+
+**Cosmic Miniplayer** changes how the mini-player window looks. Small cover, the buttons are always there, drag the bar to seek. It works at any window size, even a thin strip.
+
+![Cosmic Miniplayer](previews/miniplayer.jpg)
+
+**Cosmic Fullscreen F11** does what it says: F11 for fullscreen, Esc to get out.
+
+![Cosmic Fullscreen F11](previews/fullscreen.jpg)
+
+Nothing changes in the normal window until you press one of the buttons.
 
 ## Install
 
-With the Spicetify Marketplace: open it, search for "Cosmic" and install what you want.
+From the Spicetify Marketplace: search for "Cosmic" and install what you want.
 
-By hand: copy the files you want into your Spicetify `Extensions` folder, then
+Or by hand: put the files you want in your Spicetify `Extensions` folder and run
 
 ```bash
 spicetify config extensions cosmic-sky.js cosmic-motion.js cosmic-nowplaying.js cosmic-miniplayer.js cosmic-fullscreen.js
 spicetify apply
 ```
 
-Do not run Spicetify as administrator.
+Don't run Spicetify as administrator. It can leave Spotify with a black window.
 
-## Notes
+## Things to know
 
-- Built and tested on Windows with Spotify 1.3.6 and Spicetify 2.46. Spotify changes its page structure from time to time; the extensions avoid its generated class names where they can, but a new Spotify version may need an update.
-- Lyrics come from Spotify's own lyrics service, so they show only for tracks that have them.
-- The mini-player is a separate Picture-in-Picture window, so Windows keeps it opaque.
-- `prefers-reduced-motion` is respected: the animations and the sky's motion are switched off.
-- The extensions only talk to Spotify itself (lyrics, audio analysis, cover images). Nothing is sent anywhere else.
+- I only tested this on Windows with Spotify 1.3.6 and Spicetify 2.46. Spotify changes its pages from time to time, so something may break after an update. If it does, open an issue.
+- The lyrics are Spotify's own, so you only get them for tracks that have them.
+- The mini-player is a separate window drawn by Windows, so it can't be see-through.
+- If "reduce motion" is on in Windows, the animations and the moving stars switch off.
+- The extensions only talk to Spotify (lyrics, beat data, covers). Nothing goes anywhere else.
 
 ## По-русски
 
-Чёрный Spotify с живым звёздным небом: страница с большой обложкой и текстом песни (слова подсвечиваются по ходу пения), свой мини-плеер, анимации и небо, которое мигает в такт музыке. Ставится из Spicetify Marketplace (поиск «Cosmic») или вручную, как выше. В обычном окне ничего не меняется, пока не нажмёшь кнопки: кнопка со звездой в нижней панели плеера открывает страницу с текстом, Shift+F11 открывает её на весь экран.
+Хотел, чтобы Spotify выглядел как ночное небо, и сделал. Чёрный фон, звёзды, страница с текстом песни, свой мини-плеер и немного анимаций. Всё это пять отдельных расширений, ставь любые.
+
+Ставится из Spicetify Marketplace (ищи «Cosmic») или руками, как написано выше. В обычном окне ничего не меняется, пока сам не нажмёшь кнопки. Кнопка со звездой в нижней панели плеера открывает страницу с текстом, Shift+F11 делает её на весь экран.
+
+Проверял только на Windows. Если после обновления Spotify что-то сломается, напиши в issues.
 
 ## License
 
